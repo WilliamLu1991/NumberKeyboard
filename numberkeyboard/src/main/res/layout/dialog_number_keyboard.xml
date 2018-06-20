@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!--android:background="#50000000"-->
+    <!--android:layout_marginTop="55dp"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="35dp"
+        android:background="@drawable/shape_corners_bg_ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/keyboard_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#FF333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/keyboard_tv_input"
+            style="@style/KeyboardNumberStyle"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_corners_bg_fffbfbfb"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:hint="请输入数量"
+
+            android:textColorHint="#FFCCCCCC"
+            android:textColor="#FF000000" />
+
+        <include layout="@layout/include_view_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/keyboard_btn1"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="1" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn2"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="2" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn3"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="3" />
+
+        </LinearLayout>
+
+        <include layout="@layout/include_view_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/keyboard_btn4"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="4" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn5"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="5" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn6"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="6" />
+
+        </LinearLayout>
+
+
+        <include layout="@layout/include_view_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/keyboard_btn7"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="7" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn8"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="8" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn9"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="9" />
+
+        </LinearLayout>
+
+
+        <include layout="@layout/include_view_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/keyboard_btn_delete"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="删除"
+                android:textSize="12sp" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn0"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="0" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn_clear"
+                style="@style/KeyboardNumberStyle"
+                android:layout_weight="1"
+                android:text="清空"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <include layout="@layout/include_view_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/keyboard_btn_cancel"
+                style="@style/KeyboardNumberStyle"
+                android:background="@drawable/shape_bottomleft_corners_bg_ffffff"
+                android:layout_weight="1"
+                android:text="取消"
+                android:textColor="#FF333333"
+                android:textSize="13sp"
+                android:typeface="sans" />
+
+            <include layout="@layout/include_view_vertical" />
+
+            <Button
+                android:id="@+id/keyboard_btn_confirm"
+                style="@style/KeyboardNumberStyle"
+                android:background="@drawable/shape_bottomright_corners_bg_fffffff"
+                android:layout_weight="1"
+                android:text="确定"
+                android:textColor="#FFFF645A"
+                android:textSize="13sp"
+                android:typeface="sans" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
