@@ -31,5 +31,5 @@ dependencies {
     implementation 'com.jakewharton:butterknife:8.8.1'
     implementation 'com.jakewharton:butterknife-compiler:8.8.1'
     //classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
-    //implementation 'com.github.WilliamLu1991:NumberKeyboard:v1.0'
+    implementation 'com.github.WilliamLu1991:NumberKeyboard:v1.0'
 }
