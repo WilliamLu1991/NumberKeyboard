@@ -1,6 +1,8 @@
 # NumberKeyboard
 简单的自定义数字键盘
 
+![image](https://github.com/WilliamLu1991/NumberKeyboard/blob/master/numberkeyboard/src/main/readinfo/picture_readme.jpg)
+
 Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
